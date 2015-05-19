@@ -286,20 +286,21 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
+	width: 40%;
 	float: left;
 	padding: 0;
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 16px;
+    margin-left: 10px;
    list-style: none;
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
+  	margin-bottom: 40px;
   	background: #ccc;
-  	height: 42px;
+  	height: 22px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -309,7 +310,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -20px;
 }
 .bar-expand {
    position: absolute;
@@ -318,10 +319,10 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #11ABB0;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 22px;
+   line-height: 22px;
    border-radius: 3px 0 0 3px;
 }
 
@@ -331,79 +332,183 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: C 2s ease;
 }
 .Java {
-  	width: 65%;
+  	width: 70%;
   	-moz-animation: Java 2s ease;
   	-webkit-animation: Java 2s ease;
 }
 .Csharp {
-  	width: 65%;
+  	width: 60%;
   	-moz-animation: Csharp 2s ease;
   	-webkit-animation: Csharp 2s ease;
 }
+.JS {
+    width: 70%;
+    -moz-animation: JS 2s ease;
+    -webkit-animation: JS 2s ease;
+}
+.VB {
+    width: 80%;
+    -moz-animation: VB 2s ease;
+    -webkit-animation: VB 2s ease;
+}
+.VBdotNet {
+    width: 80%;
+    -moz-animation: VBdotNet 2s ease;
+    -webkit-animation: VBdotNet 2s ease;
+}
+.ASP {
+    width: 80%;
+    -moz-animation: ASP 2s ease;
+    -webkit-animation: ASP 2s ease;
+}
+.ASPdotNet {
+    width: 60%;
+    -moz-animation: ASPdotNet 2s ease;
+    -webkit-animation: ASPdotNet 2s ease;
+}
 .dotNET {
-  	width: 30%;
+  	width: 40%;
   	-moz-animation: dotNET 2s ease;
   	-webkit-animation: dotNET 2s ease;
 }
-.html5 {
+.Audit {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: Audit 2s ease;
+  	-webkit-animation: Audit 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.SQL {
+  	width: 80%;
+  	-moz-animation: SQL 2s ease;
+  	-webkit-animation: SQL 2s ease;
+}
+.Delphi {
+    width: 75%;
+    -moz-animation: Delphi 2s ease;
+    -webkit-animation: Delphi 2s ease;
+}
+.Python {
+    width: 55%;
+    -moz-animation: Python 2s ease;
+    -webkit-animation: Python 2s ease;
+}
+.Android {
+    width: 40%;
+    -moz-animation: Android 2s ease;
+    -webkit-animation: Android 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
+@-moz-keyframes C {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
-
-@-webkit-keyframes photoshop {
+@-moz-keyframes Csharp {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+@-moz-keyframes JS {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 70%;  }
 }
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
+@-moz-keyframes VB {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-moz-keyframes VBdotNet {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes ASP {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes ASPdotNet {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes dotNET {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes Audit {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes SQL {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes Delphi {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes Python {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-moz-keyframes Android {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+
+@-webkit-keyframes C {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes Java {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes Csharp {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes JS {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes VB {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes VBdotNet {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes ASP {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes ASPdotNet {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes dotNET {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes Audit {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes SQL {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes Delphi {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes Python {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes Android {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 
 /* ------------------------------------------------------------------ */
