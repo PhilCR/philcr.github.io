@@ -376,10 +376,9 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: ASP 2s ease;
 }
 .BCP {
-	font: 13px 'opensans-bold', sans-serif;
-  	width: 40%;
-  	-moz-animation: C 2s ease;
-  	-webkit-animation: C 2s ease;
+    width: 40%;
+    -moz-animation: ASP 2s ease;
+    -webkit-animation: ASP 2s ease;
 }
 .ASPdotNet {
     width: 60%;
