@@ -325,9 +325,18 @@ ul#nav li.current a { color: #F06000; }
    line-height: 22px;
    border-radius: 3px 0 0 3px;
 }
-
+.InfoSecurity {
+  	width: 80%;
+  	-moz-animation: C 2s ease;
+  	-webkit-animation: C 2s ease;
+}
 .C {
   	width: 80%;
+  	-moz-animation: C 2s ease;
+  	-webkit-animation: C 2s ease;
+}
+.ISO {
+  	width: 70%;
   	-moz-animation: C 2s ease;
   	-webkit-animation: C 2s ease;
 }
@@ -335,6 +344,11 @@ ul#nav li.current a { color: #F06000; }
   	width: 70%;
   	-moz-animation: Java 2s ease;
   	-webkit-animation: Java 2s ease;
+}
+.RiskAssessment {
+  	width: 60%;
+  	-moz-animation: C 2s ease;
+  	-webkit-animation: C 2s ease;
 }
 .Csharp {
   	width: 60%;
@@ -360,6 +374,12 @@ ul#nav li.current a { color: #F06000; }
     width: 80%;
     -moz-animation: ASP 2s ease;
     -webkit-animation: ASP 2s ease;
+}
+.BCP {
+	font: 13px 'opensans-bold', sans-serif;
+  	width: 40%;
+  	-moz-animation: C 2s ease;
+  	-webkit-animation: C 2s ease;
 }
 .ASPdotNet {
     width: 60%;
