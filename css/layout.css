@@ -635,6 +635,29 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=100);
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: black;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 3px 5px 3px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
