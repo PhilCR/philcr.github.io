@@ -376,7 +376,7 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: ASP 2s ease;
 }
 .BCP {
-    width: 40%;
+    width: 70%;
     -moz-animation: ASP 2s ease;
     -webkit-animation: ASP 2s ease;
 }
@@ -395,13 +395,13 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: Audit 2s ease;
   	-webkit-animation: Audit 2s ease;
 }
-.SQL {
+.DPO {
   	width: 80%;
   	-moz-animation: SQL 2s ease;
   	-webkit-animation: SQL 2s ease;
 }
 .Delphi {
-    width: 75%;
+    width: 70%;
     -moz-animation: Delphi 2s ease;
     -webkit-animation: Delphi 2s ease;
 }
