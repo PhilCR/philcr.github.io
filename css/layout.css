@@ -287,10 +287,10 @@ ul#nav li.current a { color: #F06000; }
 
 .cloud{
     background-color: #fff;
+    margin: 0 auto;
     position: relative;
     text-align: center;
-    display: grid;
-
+    display: block;
 }
 
 .tag{
