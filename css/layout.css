@@ -311,6 +311,16 @@ ul#nav li.current a { color: #F06000; }
     -webkit-text-size-adjust: 100%;
 }
 
+.tag:hover{
+    -webkit-animation-name: bounceIn;
+    -moz-animation-name: bounceIn;
+    -ms-animation-name: bounceIn;
+    -o-animation-name: bounceIn;
+    animation-name: bounceIn;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
 .is{
   font-size: 300%;
   top: 10%;
